@@ -1,5 +1,14 @@
 #include <iostream>
+#include"lib.h"
+using namespace std;
+int main() {
+    int a=0;
+    cin>>a;
+    if(nprimi(a)==0){
+        cout << "numero primo"<< endl;
+    } else {
+        cout << "numero non primo" << endl;
+    }
 
-int main(){
-  return 0;
+    return 0;
 }
